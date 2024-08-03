@@ -6,6 +6,7 @@ import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
 import {disablePageScroll, enablePageScroll} from 'scroll-lock'
+import Section from "./Section";
 
 const Header = () => {
   const pathname = useLocation();
@@ -81,6 +82,7 @@ const Header = () => {
           onClick={toggleNavigation}
         >
             <MenuSvg openNabigation={openNavigation} />
+         
         </Button>
       </div>
     </div>
