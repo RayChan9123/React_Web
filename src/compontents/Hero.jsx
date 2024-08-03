@@ -71,6 +71,7 @@ const Hero = () => {
                 </ScrollParallax>
               </div>
             </div>
+            <Gradient />
           </div>
           <div
             className="absolute -top-[54%] left-1/2 w-[234%] 
@@ -84,6 +85,7 @@ const Hero = () => {
               alt="hero"
             />
           </div>
+          <BackgroundCircles />
         </div>
       </div>
     </Section>
