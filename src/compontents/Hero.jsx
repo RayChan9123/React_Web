@@ -5,6 +5,8 @@ import Button from "./Button";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
+import Generating from "./Generating";
+import Notification from "./Notification";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -23,9 +25,9 @@ const Hero = () => {
             text-center mb-[4rem] md:mb-20 lg:mb:[6rem]"
         >
           <h1 className="h1 mb-6">
-            Explore the Possibilites
+            Explore the Possibilities of&nbsp;AI&nbsp;Chatting with{" "}
             <span className="inline-block relative">
-              Brainwave
+              Brainwave{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -55,11 +57,13 @@ const Hero = () => {
                 <img
                   src={robot}
                   className="w-full scale-[1.7]
+             
                   translate-y-[8%] md:scale[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
                   width={1024}
                   height={490}
                   alt="AI"
                 />
+                <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
                 <ScrollParallax isAbsolutelyPositioned>
                   <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
                     {heroIcons.map((icon, index) => (
@@ -68,6 +72,13 @@ const Hero = () => {
                       </li>
                     ))}
                   </ul>
+                </ScrollParallax>
+
+                <ScrollParallax isAbsolutelyPositioned>
+                  <Notification
+                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
+                    title="Code generation"
+                  />
                 </ScrollParallax>
               </div>
             </div>
@@ -88,6 +99,7 @@ const Hero = () => {
           <BackgroundCircles />
         </div>
       </div>
+      <BottomLine />
     </Section>
   );
 };
