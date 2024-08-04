@@ -15,7 +15,7 @@
 ##### -Using ScrollParallax to create up/down motion movment when scrolling
 ##### --------------------------------------------------------------------------------------
 
-[!NOTE]
+> [!NOTE]
 The project will work as a template and gradually transform base on customization. See update of the Git verson
-[!NOTE]
+> [!NOTE]
 The original template design was from https://youtu.be/B91wc5dCEBA?si=5zFcgJuxz6U_cJ1U created by Adrian Hajdin
