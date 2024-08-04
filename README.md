@@ -2,7 +2,7 @@
 ## This is a project created for practicing React and Tailwind by Ray Chan.The website is deployed at https://reactwithray.netlify.app/ 
 #### The website is fully responsive! Meaning the element render to the end-user changes base on the screen size. Test it by dragging the window to simulate small, medium and large screen!
 
-##### ---------------------------------------------------------------------
+##### ------------------------------------------------------------------------------------
 ##### -Using predefined/designed components to build website easily
 ##### -Using Tailwind to style website
 ##### -Using React to build dynamic website, useRef(), useState(),
@@ -12,7 +12,7 @@
 ##### -Using React Hook Form to handle form submission
 ##### -Using React Query to handle data fetching
 ##### -Using ScrollParallax to create up/down motion movment when scrolling
-##### ---------------------------------------------------------------------
+##### ------------------------------------------------------------------------------------
 
 
 ### [^1]:The project will work as a template and gradually transform base on customization. See update of the Git verson
