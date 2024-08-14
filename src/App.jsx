@@ -5,7 +5,9 @@ import Collaboration from "./compontents/Collaboration";
 import Header from "./compontents/Header";
 import Hero from "./compontents/Hero";
 import Pricing from "./compontents/Pricing";
+import Roadmap from "./compontents/Roadmap";
 import Services from "./compontents/Services";
+import Footer from "./compontents/Footer";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
         <Collaboration />
         <Services />
         <Pricing />
+        <Roadmap />
+        <Footer />
       </div>
 
       <ButtonGradient />
